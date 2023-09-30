@@ -4,8 +4,7 @@
 body{
   margin:0;  
   padding:0;
-  font-family: Josefin Sans;
-  font-weight: 700;
+  font-family: Josefin Sans; 
 }
 .outer{
    text-align: center;
@@ -20,8 +19,8 @@ body{
 }
 a{
   color:#BD1E1E;
-  font-size:16px;
-  font-weight: @500;
+  font-size:24px;
+  font-weight:700;
   text-decoration: none;
   margin-right:50px;
 }
@@ -39,7 +38,7 @@ a:hover {
    color:#BD1E1E;
 }
 .sub{
-   font-size:16px;
+   font-size:20px;
    font-weight: bold;
    text-decoration: none;
    color:#BD1E1E;
