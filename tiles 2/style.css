@@ -1,0 +1,74 @@
+body{
+	margin:0;
+	padding:0;
+  background-color: #FFF;
+
+}
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	background-color: #FFF;
+  max-width:1200px;
+  width:100%;
+  height:100%;
+  display: inline-block;
+  height:99vh;
+  text-align: center;
+  opacity:0.5;
+}
+
+.tiletext{
+  col: #000;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: sans-serif;
+}
+
+.navbar{
+  position:sticky;
+  top:0;
+  background-color: #FFF;
+  width:100%;
+  height: 100px;
+  z-index: 100;
+  opacity: .9;
+}
+
+.navimg{
+  background-image: url("img/footlockerlogo.png");
+}
+
+
+.tile{;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:600px;
+  width:100%;
+}
+
+
+.tilebg1{
+  background-image: url("img/purplepink.jpg");
+}
+
+.tilebg2{
+  background-image:url("img/gradient.jpg"); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
