@@ -2,7 +2,7 @@ body{
 	margin:0;
 	padding:0;
   background-color: #FFF;
-
+ 
 }
 
 .outer{
@@ -10,78 +10,77 @@ body{
 }
 
 .page{
-	position:relative;
-	margin-top:10px;
-	background-color: #FFF;
+  position: relative;
+	background-color: #F651A0;
+  display: inline-block;
   max-width:1200px;
   width:100%;
-  height:100%;
-  display: inline-block;
-  height:99vh;
-  text-align: center;
-  opacity:100;
-}
-
-.tiletext{
-  col: #000;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: sans-serif;
+  height: 100%;
+  margin-top: 0px;
+  opacity:0.5;
 }
 
 
 .navbar{
   position:sticky;
   top:0;
-  background-color: #FFF;
-  width:100%;
-  height: 100px;
+  height: 110px;
   z-index: 100;
-  opacity: .9;
+  opacity: 100%;
+  margin-left: -40px;
+  background-image: url("img/footlockerlogo.png");
 }
 
 
+.tiletext{
+  padding-block: 250px;
+  opacity: 100%;
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+  font-family: sans-serif;
+  display: inline-block;
+}
+
 .tile{;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:100%;
   height:600px;
+  width:100%;
 }
 
 
 .tilebg1{
-  background-image:url"(img/tree.jpg)";
+  background-image: url("img/purplepink.jpg");
 }
 
 .tilebg2{
-  background-image:url"(img/gradient.jpg)";
+  background-image:url("img/converse.jpg"); 
 }
-
 
 .tilebg3{
-
-
+  background-image: url("img/curb.jpg");
 }
 
-
 .tilebg4{
-
-
+  background-image: url("img/docs.jpg");
 }
 
 .tilebg5{
-
-
-
+  background-image: url("img/adidas.jpg");
 }
 
 .tilebg6{
-
-
+  background-image: url("img/skateboard.jpg");
 }
 
+.tilebg7{
+  background-image: url("img/shoewall.jpg");
+}
 
+.tilebg8{
+  background-image: url("img/whiteshoes.jpg");
+}
 
 
 
