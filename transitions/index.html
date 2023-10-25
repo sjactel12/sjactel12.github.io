@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+
+    .container{
+      max-width:200px;
+      max-height:200px;
+      display: inline-block;
+      align-content: center;
+    }
+
+    .element{
+      max-width:100px;
+      max-height:100px;
+      scale: 10%;
+      align-content: center;
+      align-items: center;
+      transition: 0.7s ease;
+    }
+
+    .container:hover .element{
+      transform: scale(1.5);
+      filter: grayscale(100) opacity(50%);
+    }
+   
+
+	</style>
+</head>
+<body>
+  <div class="container">
+    <div class="element">
+      <img src="img/flowers.jpg" alt="flowers">
+    </div>
+  </div>
+
+</body>
+</html>
