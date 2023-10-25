@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: blur(100px) sepia(1) contrast(110%) drop-shadow(2px,2px)
+      filter: blur(20px) sepia(1) contrast(110%) drop-shadow(2px,2px)
+
+      max-width:300px;
+      max-height: 300px;
+      display: inline-block;
+      align-content: center; 
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 3s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+
+
+	      100%{
+	       -webkit-filter: blur(0px) sepia(1) contrast(110%) drop-shadow(1px 1px);
+	        filter: blur(0px) sepia(1) contrast(110%) drop-shadow(1px 1px);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/flowers.jpg" alt="flowers">
+
+</body>
+</html>
